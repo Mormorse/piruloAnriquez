@@ -1,0 +1,46 @@
+.shadowNav {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.bg-white {
+	background-color: #100f0f !important;
+}
+.navbar-light {
+	.navbar-nav {
+		.nav-link {
+			color: yellow;
+		}
+	}
+}
+.logo {
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	line-height: 2.1em;
+	border: 2px solid transparent;
+	&:hover {
+		-webkit-transform: rotateY(360deg);
+		transform: rotateY(360deg);
+	}
+}
+nav-item1 {
+	a {
+		color: yellow;
+	}
+}
+.cartImg {
+	width: 45px;
+	cursor: pointer;
+}
+#cartNumbers {
+	background-color: #da6ac7;
+	width: 23px;
+	height: 23px;
+	border-radius: 100%;
+	text-align: center;
+	position: relative;
+	top: -11px;
+	right: 6px;
+	cursor: pointer;
+}
+.imagenCarrito {
+	height: 250px;
+}

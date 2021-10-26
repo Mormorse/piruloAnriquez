@@ -1,0 +1,27 @@
+#fondoHome {
+	background-color: rgb(201, 235, 243);
+	padding: 20px;
+}
+#fondoHome2 {
+	background-color: #dfb28e;
+}
+.textoPrincipal {
+	margin-top: 150px;
+	color: #ec76ec;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+}
+.subtextoPrincipal {
+	color: #102014;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+.imagenesPlantasHome {
+	width: 230px;
+	height: 300px;
+	border-radius: 100%;
+	&:hover {
+		filter: brightness(115%);
+		cursor: pointer;
+	}
+}
