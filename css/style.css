@@ -48,6 +48,11 @@ nav-item1 a {
   height: 250px;
 }
 
+.navbar-light .navbar-toggler {
+  color: #d8eb6b;
+  background-color: #e7f184fc;
+}
+
 #fondoHome {
   background-color: #c9ebf3;
   padding: 20px;
